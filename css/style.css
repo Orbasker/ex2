@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+}
+#logo {
+    width: 30px;
+    height: 30px;
+    top: 41px;
+    left: 40px;
+    position: absolute;
+    border: 1px;
+    border-color: #DAA520;
+}
+#area1 {
+    width: 192px;
+    height: 33px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 2927px;
+    margin-right: 968px;
+    position: absolute;
+    height: 33px;
+    top: 40px;
+    left: 40px;
+    display: block;
+}
+header {
+    
+    margin-top: 40px;
+    margin-bottom: 50px;
+    height: 33px;
+    width: 154px;
+    Top: 40px;
+    left: 78px;
+    position: absolute;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+    color: #3e3f43;
+    display: block;
+
+}
+#area2 {
+    margin-top: 123px;
+    margin-bottom: 2322px;
+    width: 1200px;
+    height: 555px;
+    left: 0px;
+    top: 123px;
+    display: block;
+    background: #f9bdbd;
+}
+/* #area2 .text {
+    position: absolute;
+    width: 448px;
+    height: 180px;
+    left: 506px;
+    top: 206px;
+} */
+
+/* #area2 ,.img {
+    position: absolute;
+    width: 426px;
+    height: 388px;
+    margin-left: 40px;
+    margin-right: 734px;
+    padding-bottom: 84px;
+    padding-top: 83px;
+    left: 40px;
+    top: 206px;
+} */
+/* footer {
+    display: block;
+    
+} */
