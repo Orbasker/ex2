@@ -1,42 +1,34 @@
-
+/* OR Basker */
 *{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
-#logo {
-    background-image: url(https://upload.wikimedia.org/wikipedia/en/6/67/Shenkar_College_of_Engineering_and_Design.svg);
+a{
+    text-decoration: none;
+}
+header, main, footer, nav, aside, section, div  {
     display: block;
-    /* width: 30px; */
-    /* height: 30px; */
-    /* top: 41px; */
-    /* left: 40px; */
-    /* position: absolute; */
-    /* border: 1px; */
-    /* border-color: #DAA520; */
+}
+ #logo {
+    background-image: url(../images/Shenkar.png);
+    margin: 40px 0px 40px 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 33px;
+    white-space: nowrap;
 }
 #area1 {
     width: 192px;
     height: 33px;
     margin-left: 40px;
     margin-top: 40px;
-    margin-bottom: 2927px;
-    margin-right: 968px;
-    position: absolute;
-    height: 33px;
-    top: 40px;
-    left: 40px;
     display: block;
 }
-/* 
 header {
-    
-    margin-top: 40px;
-    margin-bottom: 50px;
-    height: 33px;
-    width: 154px;
-    Top: 40px;
-    left: 78px;
-    position: absolute;
-
+    margin-left: 40px;
+    width: 100%;
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
@@ -45,38 +37,281 @@ header {
     letter-spacing: 0.25em;
     color: #3e3f43;
     display: block;
-
-}  */
-/* #area2 {
+} 
+#area2 {
     margin-top: 123px;
-    margin-bottom: 2322px;
     width: 1200px;
-    height: 555px;
-    left: 0px;
-    top: 123px;
-    display: block;
+    height: 555px; 
     background: #f9bdbd;
-} */ 
-/* #area2 .text {
+}  
+#area2 .largetext {
+    width: 448px;
+    height: 98px;
+    margin-top: 83px;
+    margin-left: 506px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+    } 
+#area2 .smalltext {
     position: absolute;
     width: 448px;
-    height: 180px;
+    height: 66px;
     left: 506px;
-    top: 206px;
-} */
-
-/* #area2 ,.img {
-    position: absolute;
-    width: 426px;
-    height: 388px;
-    margin-left: 40px;
-    margin-right: 734px;
-    padding-bottom: 84px;
-    padding-top: 83px;
-    left: 40px;
-    top: 206px;
-} */
-/* footer {
+    top: 350px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
     display: block;
-    
-} */
+}
+
+#area2 .img{
+    background-image: url(../images/WhatsApp.jpeg);
+    width: 388px;
+    height: 370px;
+    position: absolute;
+    left: 40px;
+    bottom: 83px;
+    top: 120px;
+    margin-top: 83px;
+    color: #F7dEA6;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+}
+#area3 {
+    width: 741px;
+    height: auto;
+    margin-top: 24px;
+    margin-left: 40px;
+}
+#area3 .about {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+#area3 .text {
+    gap: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: justify;
+
+    color: #000000;
+}
+#area4 a{
+    margin-top: 16px;
+    margin-left: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+h4 {
+    color: #000000;
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+h5 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8d8d8d;
+}
+#area4 {
+    width: 100%;
+}
+#area4 h4{
+    margin-top: 24px;
+    margin-left: 24px;
+    display: block;
+}
+.round_pic {    
+    width: 212px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: url(../images/cardsPic.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+#card1 {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 200px;
+    height: 264px;
+    border-radius: 30px;
+    display: inline-block;
+    background: #FDEDE5;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+#card2 {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 200px;
+    height: 264px;
+    border-radius: 30px;
+    display: inline-block;
+    background: #EBF1FF;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+#card3 {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 200px;
+    height: 264px;
+    border-radius: 30px;
+    display: inline-block;
+    background: #EBFFEC;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+#card4 {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 200px;
+    height: 264px;
+    border-radius: 30px;
+    display: inline-block;
+    background: #FFEBFC;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+#card5 {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 200px;
+    height: 264px;
+    border-radius: 30px;
+    display: inline-block;
+    background: #FFFEEB;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25);
+}
+.view {
+    height: 40px;
+    width: 120px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 24px;
+    /* object-fit: contain; */
+}
+.view:hover{
+    background-color: #4CAF50; 
+    color: white;
+}
+#area5 {
+    margin-top: 40px;
+    width: 364px;
+    height: 205px;
+}
+
+#area5 .text {
+    width: auto;
+    height: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+#area5 .list {
+    margin-top: 45px;
+    margin-left: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140.62%;
+    text-align: justify;
+    color: #000000;
+}
+#area6 {
+    margin-top: 64px;
+    width: 1120px;
+    height: auto;
+}
+#area6 p{
+    margin-left: 20px;
+}
+#area6 .text {
+    width: auto;
+    height: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    display: block;
+}
+
+#area6 #area6background {
+    width: 1120px;
+    height: auto;
+    padding: 16px;
+    background: #F9BDBD;
+}
+
+footer {
+    display: block;
+    width: 1200px;
+    height: 301px;
+    background-color: #efefef;
+}
+footer .followus {
+    margin-top: 16px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 40px;
+    color: #333333;
+}
+footer a{
+    display: block;
+    position: relative;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #8d8d8d;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+footer h5{
+    margin-left: 40px; 
+    margin-top: 70px;
+}
+.resume{
+    margin-left: 40px;
+    margin-top: 16px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3E3F43;
+}
