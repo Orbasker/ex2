@@ -23,7 +23,7 @@ header, main, footer, nav, aside, section, div  {
     width: 192px;
     height: 33px;
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 24px;
     display: block;
 }
 header {
@@ -39,15 +39,16 @@ header {
     display: block;
 } 
 #area2 {
-    margin-top: 123px;
-    width: 1200px;
+    margin-top: 80px;
+    /* width: 1200px; */
+    width: 100%;
     height: 555px; 
     background: #f9bdbd;
 }  
 #area2 .largetext {
     width: 448px;
     height: 98px;
-    margin-top: 83px;
+    padding-top: 83px;
     margin-left: 506px;
     font-family: 'Nunito';
     font-style: normal;
@@ -55,10 +56,10 @@ header {
     font-size: 36px;
     line-height: 49px;
     color: #3E3F43;
-    } 
+} 
 #area2 .smalltext {
     position: absolute;
-    width: 448px;
+    width: 650px;
     height: 66px;
     left: 506px;
     top: 350px;
@@ -70,7 +71,6 @@ header {
     color: #000000;
     display: block;
 }
-
 #area2 .img{
     background-image: url(../images/WhatsApp.jpeg);
     width: 388px;
@@ -109,8 +109,8 @@ header {
     color: #000000;
 }
 #area4 a{
-    margin-top: 16px;
-    margin-left: 40px;
+    /* margin-top: 16px; */
+    /* margin-left: 40px; */
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -119,6 +119,10 @@ header {
     display: block;
     text-decoration: none;
     color: #000000;
+}
+#area4 .text{
+    margin-top: 16px;
+    margin-left: 40px;
 }
 h4 {
     color: #000000;
@@ -274,7 +278,7 @@ h5 {
 
 footer {
     display: block;
-    width: 1200px;
+    width: 100%px;
     height: 301px;
     background-color: #efefef;
 }
