@@ -109,8 +109,6 @@ header {
     color: #000000;
 }
 #area4 a{
-    /* margin-top: 16px; */
-    /* margin-left: 40px; */
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -132,7 +130,6 @@ h4 {
     line-height: 40px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 h5 {
     font-family: 'Nunito';
@@ -215,8 +212,7 @@ h5 {
     background: #FFFFFF;
     border-radius: 4px;
     margin-top: 20px;
-    margin-left: 24px;
-    /* object-fit: contain; */
+    margin-left: 40px;
 }
 .view:hover{
     background-color: #4CAF50; 
@@ -314,8 +310,8 @@ footer h5{
     margin-top: 16px;
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 19px;
-    color: #3E3F43;
+    color: #000000;
 }
